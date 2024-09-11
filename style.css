@@ -1,0 +1,620 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;  
+    font-family: sans-serif; 
+}
+
+.bg{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 76vh;
+   background-image: url(./brooke-lark-08bOYnH_r_E-unsplash.jpg);
+   background-size: cover;
+   background-position-y: -32vh;
+   z-index: -1;
+}
+.one{
+    width: 100%;
+    height: 76vh;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.341);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one h1{
+    text-align: center;
+    font-size: 46px;
+    position: relative;
+    bottom: 30px;
+    color: white;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.493);
+    position: fixed;
+    top: 0;
+    display: flex;
+    z-index: 1;
+}
+.navbar .navleft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar .navleft img{
+    width: 20vh;
+    margin-left: 22vh;
+}
+
+.navbar .navleft a{
+    text-decoration: none;
+    color: white;
+   font-weight: 600;
+    font-size: 15px;
+}
+.navright {
+    width: 50%;
+    height: 100%;
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+}
+.navbar .navright a{
+    text-decoration: none;
+    color: white;
+   font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    left: 20vh;
+}
+
+.two{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(226,226,227);
+    margin-top: 76vh;
+    display: flex;
+}
+.two .two-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    align-items: start;
+    padding-left: 22vh;
+}
+.two .two-left .fa-database{
+    font-size: 31px;
+    padding: 12px 14px;
+    border-radius: 999px;
+    color: rgb(8,152,231);
+    background-color: white;
+    border: 1px solid rgb(8,152,231);
+    margin-top: 20vh;
+}
+.two .two-left h1{
+    font-weight: 500;
+}
+
+.two .two-left p{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(80, 80, 80);
+}
+.two .two-right{
+    width: 50%;
+    height: 100%;
+}
+.two .two-right img{
+    height: 55vh;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+    box-shadow: -0.5px -0.5px 10px rgba(0, 0, 0, 0.232);
+}
+
+.two .two-right .onecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    width: 55vh;
+    height: 31vh;
+    background-color: white;
+    position: absolute;
+    right: 63%;
+    top: 69%;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.232);
+}
+.two .two-right .twocard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    width: 55vh;
+    height: 31vh;
+    background-color: white;
+    position: absolute;
+    right: 34%;
+    top: 63%;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.232);
+}
+.two .two-right .threecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    width: 55vh;
+    height: 31vh;
+    background-color: white;
+    position: absolute;
+    left: 68%;
+    top: 67%;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.232);
+}
+
+.two .two-right .onecard .fa-database{
+    font-size: 30px;
+    color: rgb(8,152,231);
+}
+.two .two-right .twocard .fa-cloud-arrow-up{
+    color: rgb(8,152,231);
+    font-size: 30px;
+}
+.two .two-right .threecard .fa-chart-pie{
+    color: rgb(8,152,231);
+    font-size: 30px;
+}
+
+.two .two-right .onecard h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+.two .two-right .twocard h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+.two .two-right .threecard h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.two .two-right .onecard p{
+   line-height: 23px;
+   color: rgb(102, 102, 102);
+}
+.two .two-right .twocard p{
+    line-height: 23px;
+    color: rgb(102, 102, 102);
+ }
+ .two .two-right .threecard p{
+    line-height: 23px;
+    color: rgb(102, 102, 102);
+ }
+ .three{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    transform: skewY(-1deg);
+    margin-top: -2vh;
+    display: flex;
+    align-items: center;
+ }
+ .three .three-in{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    transform: skewY(1deg);
+    background-color: white;
+ }
+ .three-in .threeleft{
+    width: 50%;
+    height: 100%;
+ }
+ .three-in .threeleft img{
+    height: 59vh;
+    position: relative;
+    top: 23%;
+    left: 17%;
+    border-radius: 10px;
+ }
+
+ .three-in .threeright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    align-items: start;
+    padding-left: 22vh;
+ }
+
+ .three-in .threeright .fa-cloud-arrow-up{
+    font-size: 27px;
+    padding: 16px 14px;
+    border-radius: 999px;
+    color: rgb(8,152,231);
+    background-color: white;
+    border: 1px solid rgb(8,152,231);
+    margin-top: 3vh
+ }
+
+ .three-in .threeright h1{
+    font-weight: 500;
+ }
+
+ .three-in .threeright p{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(80, 80, 80);
+ }
+
+ .four{
+    width: 100%;
+    height: 58vh;
+    display: flex;
+    align-items: center;
+    transform: skewY(-1deg);
+    margin-top: -2vh;
+    background-color: rgb(226,226,227);
+ }
+ .four .four-in{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    transform: skewY(1deg);
+    background-color: rgb(226,226,227);
+ }
+ .four .four-in .fourleft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    align-items: start;
+    padding-left: 22vh;
+ }
+
+ .four .four-in .fourleft .fa-share{
+    font-size: 26px;
+    padding: 14px 16px;
+    border-radius: 999px;
+    color: rgb(8,152,231);
+    background-color: white;
+    border: 1px solid rgb(8,152,231);
+    margin-top: 1vh
+ }
+ .four .four-in .fourleft h1{
+    font-weight: 500;
+ }
+
+ .four .four-in .fourleft p{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(80, 80, 80);
+ }
+ .fourright{
+    width: 50%;
+    height: 100%;
+ }
+ 
+ .four .four-in .fourright img{
+    height: 25vh;
+    position: relative;
+    top: 30%;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.232);
+ }
+
+ .five{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    transform: skewY(-1deg);
+    margin-top: -2vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+ }
+ .five .five-in{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    transform: skewY(1deg);
+    background-color: white;
+ }
+
+ .five .five-in .fiveleft{
+    width: 50%;
+    height: 100%;
+ }
+
+ .five .five-in .fiveleft img{
+    height: 59vh;
+    position: relative;
+    top: 13%;
+    left: 17%;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.232);
+ }
+
+
+
+ .five .five-in .fiveright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    align-items: start;
+    padding-left: 22vh;
+ }
+
+ .five .five-in .fiveright .fa-chart-pie{
+    font-size: 27px;
+    padding: 16px 14px;
+    border-radius: 999px;
+    color: rgb(8,152,231);
+    background-color: white;
+    border: 1px solid rgb(8,152,231);
+    margin-top: 3vh
+ }
+
+ .five .five-in .fiveright h1{
+font-weight: 500;
+ }
+
+ .five-in .fiveright p{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(80, 80, 80);
+ }
+
+ .six{
+    width: 100%;
+    height: 104vh;
+    background-color: rgb(21, 31, 51);
+    transform: skewY(-1deg);
+    margin-top: -2vh;
+    display: flex;
+    align-items: center;
+    
+ }
+ .six .six-in{
+    width: 100%;
+    height: 90%;
+    transform: skewY(1deg);
+    background-color: rgb(21, 31, 51);
+    border-top: 1px solid gray;
+ }
+ .six .six-in .sixtop{
+    width: 100%;
+    height: 12vh;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+ }
+
+ .six .six-in .sixbottom{
+    display: flex;
+    width: 100%;
+    height: 73vh;
+    background-color: rgb(21, 31, 51);
+ }
+ .six .six-in .sixbottom .sixleft{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(21, 31, 51);
+
+ }
+ .six .six-in .sixbottom .sixright{
+    width: 50%;
+    height: 100%;
+
+ }
+
+ .sixbottom .sixleft .leftcard{
+    background-color: rgb(21, 31, 51);
+    height: 90%;
+    width: 80%;
+    position: relative;
+   left: 20%;
+   top: 5%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+ }
+
+ .sixleft .leftcard .fa-check{
+    color: green;
+ }
+ .sixleft .leftcard h1{
+    font-size: 40px;
+    color: white;
+ }
+ .sixleft .leftcard h1 em{
+    font-style: normal;
+    font-size: 22px;
+    position: relative;
+    bottom: 14px;
+    right: 5px;
+    color: white;
+ }
+
+ .sixleft .leftcard hr{
+    width: 90%;
+ }
+ .sixleft .leftcard p,h4{
+    color: white;
+ }
+
+ .sixleft .leftcard button{
+    padding: 8px 75px;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: 40px;
+    cursor: pointer;
+ }
+
+ .sixbottom .sixright .rightcard{
+   background-color: white;
+    height: 98%;
+    width: 80%;
+    position: relative;  
+   top: 1%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   border-radius: 12px;
+ }
+
+ .sixright .rightcard .fa-check{
+    color: green;
+ }
+ .sixright .rightcard h4{
+    color: black;
+ }
+
+ .sixright .rightcard h1{
+    font-size: 40px;
+ }
+ .sixright .rightcard h1 em{
+    font-style: normal;
+    font-size: 22px;
+    position: relative;
+    bottom: 14px;
+    right: -5px;
+ }
+
+ .sixright .rightcard hr{
+    width: 90%;
+    border: 0.5px solid rgba(128, 128, 128, 0.244);
+ }
+
+ .sixright .rightcard button{
+    padding: 8px 75px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 40px;
+    cursor: pointer;
+ }
+
+ .sixbottom .leftcard button:hover{
+    background-color: rgb(8,152,231);
+    border: 0.5px solid rgb(8,152,231);
+    transform: scale(1.2);
+   transition: all ease 0.8s;
+ }
+
+ .sixbottom .rightcard button:hover{
+    background-color: rgb(8,152,231);
+    border: 0.5px solid rgb(8,152,231);
+    transform: scale(1.2);
+   transition: all ease 0.8s;
+   color: white;
+ }
+ .last{
+    width: 100%;
+    height: 43vh;
+    background-color: rgb(226,226,227);
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    bottom: 15px;
+    z-index: -1;
+ }
+ .last .last-in{
+    width: 100%;
+    height: 95.5%;
+    background-color: transparent;
+    border-top: 1px solid rgb(155, 155, 155);
+    position: relative;
+    top: 14px;
+ }
+ .last .last-in .footer{
+    width: 20vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    left: 75%;
+    top: 10%;
+ }
+ .footer h2{
+    font-size: 15px;
+    color: gray;
+ }
+ .footer a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+ }
+ .last .last-in .end{
+    width: 100%;
+    height: 10vh;
+    position: relative;
+   top: 20%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-between;
+ }
+ .last-in .end hr{
+    width: 90%;
+    border: 0.5px solid rgba(98, 98, 98, 0.244);
+ }
+ .last-in .end p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(60, 60, 60);
+    position: relative;
+    bottom: 25px;
+ }
